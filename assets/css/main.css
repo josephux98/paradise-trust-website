@@ -1347,6 +1347,7 @@ section,
   border-radius: 50%;
   object-fit: cover;
   border: 2px solid var(--accent-color);
+  object-position: top;
 }
 
 .hero .hero-images .image-stack .floating-card .agent-info .agent-details {
@@ -4013,6 +4014,7 @@ section,
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: top;
 }
 
 .about .founder-highlight .founder-info {
@@ -4121,29 +4123,29 @@ section,
 .about .achievements-grid {
   background: linear-gradient(135deg, var(--surface-color), color-mix(in srgb, var(--surface-color), var(--accent-color) 5%));
   border-radius: 20px;
-  padding: 3rem 2rem;
-  margin: 5rem 0;
+  padding: 2rem 1.5rem;
+  margin: 3rem 0;
   border: 1px solid color-mix(in srgb, var(--default-color), transparent 95%);
 }
 
 .about .achievements-grid .achievement-item {
-  padding: 1.5rem;
+  padding: 1rem;
 }
 
 .about .achievements-grid .achievement-item .achievement-icon {
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
   background: color-mix(in srgb, var(--accent-color), transparent 88%);
   border-radius: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 auto 1.5rem;
+  margin: 0 auto 1rem;
   transition: all 0.3s ease;
 }
 
 .about .achievements-grid .achievement-item .achievement-icon i {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: var(--accent-color);
 }
 
@@ -4157,7 +4159,7 @@ section,
 }
 
 .about .achievements-grid .achievement-item .achievement-number {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 700;
   color: var(--heading-color);
   line-height: 1;
@@ -4174,8 +4176,6 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 35%);
   font-size: 1rem;
   font-weight: 500;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
 }
 
 .about .timeline-section {
@@ -4311,7 +4311,7 @@ section,
 
 .about .team-preview .team-member {
   background: var(--surface-color);
-  border: 1px solid color-mix(in srgb, var(--default-color), transparent 95%);
+  border: 1px solid color-mix(in srgb, var(--default-color), transparent 80%);
   border-radius: 15px;
   padding: 2rem 1.5rem;
   transition: all 0.3s ease;
@@ -4336,6 +4336,7 @@ section,
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: top;
 }
 
 .about .team-preview .team-member .member-info h5 {
@@ -5277,6 +5278,7 @@ section,
   height: 60px;
   border-radius: 50%;
   object-fit: cover;
+  object-position: top;
 }
 
 .property-details .property-overview .agent-info .agent-details h4 {
@@ -5676,6 +5678,7 @@ section,
   width: 100%;
   height: 300px;
   object-fit: cover;
+  object-position: top;
   transition: transform 0.3s ease;
 }
 
